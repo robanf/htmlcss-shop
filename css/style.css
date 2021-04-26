@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin:20px 250px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box{
+    float: left;
+    width: calc(96%/3);
+    height: 100px;
+    display: inline-block;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+}
+
+.centrale{
+    margin: 0 20px;
+}
