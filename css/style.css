@@ -86,3 +86,10 @@
 .sx:hover .foto-hover{
     display: inline-block;
 }
+
+.sx:hover .cuore{
+    background-image: url(../img/IMGP6562.JPG);
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0);
+}
