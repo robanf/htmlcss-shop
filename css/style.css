@@ -17,7 +17,7 @@
 .box{
     float: left;
     width: calc(96%/3);
-    
+    margin: 20px 0;
     
 }
 
@@ -32,7 +32,7 @@
 }
 
 .centrale{
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 .scritte{
@@ -40,6 +40,7 @@
     bottom: 3px;
     left: 0px;
 }
+
 
 .cuore{
     position: absolute;
@@ -62,6 +63,12 @@
 .eco{
     background-color: rgb(12, 119, 12);
     color: white;
+}
+
+.banner{
+    line-height: 30px;
+    margin-bottom: 2px;
+    background-color: rgb(17, 128, 17);
 }
 
 .prezzo{
