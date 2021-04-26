@@ -17,15 +17,65 @@
 .box{
     float: left;
     width: calc(96%/3);
-    height: 100px;
-    display: inline-block;
+    
+    
+}
+
+.sx{
+    position: relative;
 }
 
 .box img{
     width: 100%;
     height: auto;
+    
 }
 
 .centrale{
     margin: 0 20px;
+}
+
+.scritte{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+}
+
+.cuore{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 40px;
+    border: 3px solid white;
+    background-color: white;
+}
+
+.descrizione{
+    line-height: 20px;
+}
+
+.sconto{
+    background-color: rgb(190, 19, 19);
+    color: white;
+}
+
+.eco{
+    background-color: rgb(12, 119, 12);
+    color: white;
+}
+
+.prezzo{
+    color: rgb(190, 11, 11);
+}
+
+.foto-hover{
+    display: none;
+}
+
+.sx:hover .originale{
+    display: none;
+}
+
+.sx:hover .foto-hover{
+    display: inline-block;
 }
